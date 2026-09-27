@@ -1,0 +1,12 @@
+{
+    "name": "navadurga/website",
+    "description": "নবদুর্গা — Navadurga knowledge, puja planning and seva platform.",
+    "type": "project",
+    "license": "proprietary",
+    "require": {
+        "php": ">=8.0"
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}

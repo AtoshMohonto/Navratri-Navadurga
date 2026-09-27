@@ -1,0 +1,13 @@
+RewriteEngine On
+
+# When the web server's DocumentRoot points at this project folder itself
+# (e.g. plain XAMPP htdocs access without a virtual host), transparently
+# serve everything from /public so the app behaves as if public/ were the
+# document root. If DocumentRoot is already set to /public, this file is
+# simply never reached.
+RewriteCond %{REQUEST_URI} !/public/
+RewriteRule ^(.*)$ public/$1 [L]
+
+<FilesMatch "^\.">
+    Require all denied
+</FilesMatch>
