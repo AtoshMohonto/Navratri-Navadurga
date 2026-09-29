@@ -1,0 +1,14 @@
+{
+  "name": "নবদুর্গা — জ্ঞান, সাধনা, পূজা ও সেবা",
+  "short_name": "নবদুর্গা",
+  "description": "নবরাত্রির প্রতিটি দিন হোক জ্ঞান, সাধনা, আনন্দ ও সেবার একটি নতুন অধ্যায়।",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#FAF8F4",
+  "theme_color": "#8B2E3C",
+  "lang": "bn",
+  "icons": [
+    { "src": "assets/images/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

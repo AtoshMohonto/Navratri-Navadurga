@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /admin
+Disallow: /dashboard
+Disallow: /profile
+Disallow: /bookmarks
+Disallow: /my-checklist
+Disallow: /my-seva
+Disallow: /login
+Disallow: /register
+Allow: /
+
+Sitemap: /sitemap.xml
